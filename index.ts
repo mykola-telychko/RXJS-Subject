@@ -1,5 +1,6 @@
 import { Subject, from, multicast, interval, refCount } from 'rxjs';
 
+// https://rxjs.dev/guide/subject
 const subject = new Subject<number>();
 
 subject.subscribe({
